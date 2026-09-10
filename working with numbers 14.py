@@ -1,0 +1,8 @@
+p=float(input('what is your starting amount-'))
+i=float(input('what is the interest rate in percentage-'))
+time=float(input('how many years is the money in the savings-'))
+total=(p*i*time)
+print('interest gained',total)
+print('your total balance is',p+total)
+compound=(p*(1+i)**time)
+print('total compound interest gained',compound)

@@ -1,0 +1,5 @@
+team = str(input('enter your team name'))
+wins = int(input('how many games have you won'))
+draws = int(input('how many games have you drew'))
+loses = int(input('how many games have you lost'))
+print('the total points you have got is',draws+wins*3)

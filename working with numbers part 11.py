@@ -1,0 +1,6 @@
+test1=float(input('what did you get in test 1-'))
+test2=float(input('what did you get in test 2-'))
+test3=float(input('what did you get in test 3-'))
+test4=float(input('what did you get in test 4-'))
+test5=float(input('what did you get in test 5-'))
+print('your average test score is',(test1+test2+test3+test4+test5)/5,)
