@@ -1,0 +1,20 @@
+cost=float(input('enter your budget amount-'))
+season=input('enter the season you are going-')
+if cost<100:
+    print('you will stay somewhere in moldova')
+    if season=='summer':
+        print('camp-',cost*0.30,)
+    else:
+        print('camp',cost*0.70,)
+if cost<1000:
+    print('you will stay somewhere in the balkans')
+    if season=='summer':
+        print('camp-',cost*0.30)
+    else:
+        print('hotel',cost*0.70)
+if cost>1000:
+    print('you will stay somewhere in Europe')
+    if season=='summer':
+        print('hotel-',cost*0.30)
+    else:
+        print('hotel',cost*0.70)
