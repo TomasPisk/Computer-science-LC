@@ -1,0 +1,1 @@
+print('item\tprice\tquantity\n apple\t1.00$\t5\nbanana\t0.50\t$12')
